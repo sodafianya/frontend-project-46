@@ -1,0 +1,14 @@
+extends: airbnb-base
+env:
+  node: true
+  jest: true
+  es2021: true
+rules:
+  'no-console': 'off'
+  'import/extensions': ['error', 'ignorePackages']
+  'linebreak-style': ['error', 'unix']
+  'semi': ['error', 'always']
+  'import/order': ['error', { 'newlines-between': 'always' }]
+  'arrow-body-style': 'off'
+  'padded-blocks': 'off'
+  
