@@ -1,0 +1,6 @@
+{
+    common: {
+      - setting: 1
+      + setting: 2
+    }
+}
